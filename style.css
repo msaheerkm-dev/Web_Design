@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(55, 131, 67);
+}
+.header{
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin: 20px;
+}
+.header h1{
+    color: red;
+}
