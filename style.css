@@ -9,3 +9,25 @@ body{
 .header h1{
     color: red;
 }
+.bodi{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.bodi h1{
+    margin: 250px;
+}
+.foot{
+    background-color: aliceblue;
+    border-radius: 10px;
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.foot button{
+    font-size: 18px;
+    font-weight: bolder;
+    margin: 12px;
+    border-radius: 10px;
+}
