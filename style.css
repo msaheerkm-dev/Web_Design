@@ -31,7 +31,7 @@ body{
     justify-content: space-between;
 }
 
-.foot button{
+.btn{
     font-size: 18px;
     font-weight: bolder;
     margin: 12px;
