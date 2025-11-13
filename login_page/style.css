@@ -1,0 +1,111 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: green;
+    background: url('bgimage.jpg') no-repeat center center/cover;
+}
+
+.wrapper {
+    background: purple;
+    width: 420px;
+    color: white;
+    border-radius: 10px;
+    padding: 30px 40px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(10px);
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 15px;
+    color: white;
+    padding: 0 38px;
+    box-sizing: border-box;
+}
+
+.input-box ::placeholder{
+    color: white;
+    font-size: 15px;}
+
+.input-box i{
+    position: absolute;
+    right: 20px;
+    bottom: 30%;
+    font-size: 20px;
+}
+
+.wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+}
+
+.remember-forgot label input{
+    accent-color: white;
+    margin-right: 3px;
+}
+
+.remember-forgot a {
+    color: white;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+    font-size: 15px;
+}
+
+.wrapper .btn {
+    width: 100%;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.wrapper .btn:hover {
+    background: black;
+    color: white;
+}
+
+.wrapper .register-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.register-link p a {
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.register-link  a:hover {
+    text-decoration: underline;
+}
