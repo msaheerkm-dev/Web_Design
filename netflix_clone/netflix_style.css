@@ -1,0 +1,104 @@
+
+body {
+  background: black;
+}
+
+.nav {
+  width: 100%;
+  background: black;
+}
+
+#language {
+  color: #fff;
+  background-color: #343a40;
+}
+
+#language option {
+  color: #000;
+}
+
+.txt {
+  color: white;
+  text-align: center;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #fff4f4;
+  opacity: 1;
+}
+
+input,
+textarea {
+  padding-left: 12px;
+}
+
+.email-blur-input {
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+  color: #fff;
+  border: 1px solid rgba(225, 225, 225, 0.2);
+}
+
+.topdiv {
+  background: url(bg.jpg);
+  position: relative;
+}
+
+.topdiv::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.topdiv>* {
+  position: relative;
+  z-index: 2;
+}
+
+.mv {
+  width: 120px;
+  height: 150px;
+  margin: 10px;
+  display: inline-block;
+  border-radius: 10px;  
+}
+
+.bxsize {
+  height: 320px;
+}
+
+.accordion,
+.accordion-item,
+.accordion-header,
+.accordion-button,
+.accordion-body {
+  background-color: #1b1818 !important;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+}
+
+.accordion-button::after {
+  filter: brightness(0) invert(1);
+}
+
+.lnk {
+  color: white;
+  font-size: 17px;
+}
+
+.myclr {
+  color: white
+}
+
+.mygrad {
+  background: linear-gradient(to bottom right, rgb(8, 8, 49),rgb(20, 3, 20));
+}
+
